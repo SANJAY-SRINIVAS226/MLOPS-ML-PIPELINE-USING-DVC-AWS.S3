@@ -33,6 +33,7 @@ stages:
     - model_building.random_state
     outs:
     - models/model.pkl
+    
   model_evaluation:
     cmd: python src/model_evaluation.py
     deps:
